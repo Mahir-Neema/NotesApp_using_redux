@@ -11,8 +11,8 @@ function ListNotes() {
     <div>
         {notes.map((note,index) => {
             return(<div style={{border:"1px grey solid",margin:"5px",borderRadius:"3px",padding:"5px",backgroundColor:boxcolour[index%5]}}>
-            <p>{note.id}</p>
-            <h2>{note.title}</h2>s
+            {/* <p>{note.id}</p> */}
+            <h2>{note.title}</h2>
             <p>{note.desc}</p>
             <button onClick={()=>dispatch(deleteNote(note.id))}>delete</button>
             </div>
