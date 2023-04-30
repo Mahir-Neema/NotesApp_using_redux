@@ -5,6 +5,8 @@ import CreateNote from './components/Notes/CreateNote'
 import ListNotes from './components/Notes/ListNotes'
 import Todo from './components/ToDoList/Todo'
 import Counter from './components/UseReducer/UseredcuerPractise'
+import Reducerpractise from './components/ReducerPractise/reducerpractise'
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
         <ListNotes/>
 
       {/* <Counter/> */}
+      {/* <Reducerpractise/> */}
     </div>
   )
 }
